@@ -2,17 +2,12 @@
   "name": "vivoscore",
   "version": "3.0.0",
   "description": "VivoScore - Güvenli Canlı Skor Platformu",
-  "main": "server.js",
+  "private": true,
   "engines": {
     "node": ">=18.0.0"
   },
-  "scripts": {
-    "start": "NODE_ENV=production node server.js",
-    "dev": "node server.js"
-  },
   "dependencies": {
     "express": "^4.21.0",
-    "cors": "^2.8.5",
-    "express-rate-limit": "^7.4.0"
+    "cors": "^2.8.5"
   }
 }
